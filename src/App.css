@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #19191b;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.btn.btn-dark:hover {
+    background-color: rgb(150, 11, 108);
+    color: white;
+}
+
