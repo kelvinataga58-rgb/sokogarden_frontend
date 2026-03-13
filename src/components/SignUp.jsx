@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import axios from "axios";
 
+
 const SignUp = () => {
 
   // Initialize our hooks 
@@ -73,7 +74,8 @@ const SignUp = () => {
           <p className='text-danger'>{error}</p>
 
 
-          {username}
+          
+        
 
           <input type="text" placeholder='Enter your username' className='form-control'value={username}onChange={(e)=>setUsername(e.target.value)}/>
           <br />
@@ -95,11 +97,7 @@ const SignUp = () => {
           <input type="submit" value="SignUp" className='btn bg-primary text-white w-100'/> 
           <br />
 
-          <p>Already have an  account? <Link to="SignIn">SignIn</Link></p>
-
-
-
-
+          <p>Already have an  account? <Link to="/SignIn">SignIn</Link></p>
 
 
         </form>
