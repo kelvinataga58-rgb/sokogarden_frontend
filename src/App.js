@@ -35,6 +35,7 @@ function App() {
         <Route path='/SignIn' element={<SignIn/>}/>
         <Route path='/AddProducts' element={<AddProducts/>}/>     
         <Route path='/' element={<GetProducts/>}/>
+        <Route path='/Mpesa' element={<Mpesa/>}/>
          
         
       </Routes>
